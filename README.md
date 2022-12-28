@@ -17,7 +17,8 @@ Eexample output from xi_interpolator_plotter.cc (single stage):<br />
 
 Example from phase_shifter_calculation_threestage.cc (three stages, c++/ROOT version):<br />
 <img alt="phasefunc_threestage_many" src="https://user-images.githubusercontent.com/38218165/207390031-d4a3d175-0bdf-4643-9915-e90e1704335d.png" width=300 />
-<img alt="phasefunc_threestage_many_diff" src="https://user-images.githubusercontent.com/38218165/207390022-7b35021f-eb64-4b73-8322-7aa69893a8d7.png" width=300 />
+<img alt="phasefunc_threestage_many_diff" src="https://user-images.githubusercontent.com/38218165/207390022-7b35021f-eb64-4b73-8322-7aa69893a8d7.png" width=300 /><br />
+(note that right plot is in degrees, NOT radians; all others are in radians)
 
 Example from phase_shifter_calculation_threestage.py (three stages, Python version):<br />
 <img alt="phase_shifter_threestage_python" src="https://user-images.githubusercontent.com/38218165/209837680-87123765-c4f1-4c96-9bfb-6ad40fb2a566.png" width=300 />
