@@ -1,19 +1,32 @@
 # Frequency Independent Phase Shifter
 
-xi_interpolator.h: contains the tabulated values and the interpolator
+<a href="https://github.com/theworksinstitute/fips/blob/main/xi_interpolator.h">xi_interpolator.h</a>:
+c++ version of the tabulated values and the interpolator
 
-xi_interpolator.cc: example code using the interpolator to calculate parameters for a given Phi0 and Q
+<a href="https://github.com/theworksinstitute/fips/blob/main/xi_interpolator.cc">xi_interpolator.cc</a>:
+c++ code using the interpolator to calculate parameters for a given Phi0 and Q
 
-xi_interpolator_plotter.cc: plotting Phi(omega) with the calculated central frequencies for any Phi0 and Q
+<a href="https://github.com/theworksinstitute/fips/blob/main/xi_interpolator_plotter.cc">xi_interpolator_plotter.cc</a>:
+plotting Phi(omega) with the calculated central frequencies for any Phi0 and Q, in c++/ROOT
 
-phase_shifter_calculation_threestage.cc: three stage filter in c++/ROOT
+<a href="https://github.com/theworksinstitute/fips/blob/main/xi_interpolator.py">xi_interpolator.py</a>:
+tabulated values and interpolator in Python
 
-phase_shifter_calculation_threestage.py: three stage filter in Python
+<a href="https://github.com/theworksinstitute/fips/blob/main/xi_interpolator_plotter.py">xi_interpolator_plotter.py</a>:
+Phi(omega) plotter using the calculated central frequencies for any Phi0 and Q, in Python
 
-Makefile: used to compile the c++ version of plotter (ROOT also needed for that)
+<a href="https://github.com/theworksinstitute/fips/blob/main/phase_shifter_calculation_threestage.cc">phase_shifter_calculation_threestage.cc</a>:
+three stage filter in c++/ROOT
 
-Eexample output from xi_interpolator_plotter.cc (single stage):<br />
-<img alt="phasefunc_ave90_Q0 07" src="https://user-images.githubusercontent.com/38218165/207389293-c4c4b65c-80d1-44b3-b2d5-da07d44de7f2.png" width=300 />
+<a href="https://github.com/theworksinstitute/fips/blob/main/phase_shifter_calculation_threestage.py">phase_shifter_calculation_threestage.py</a>:
+three stage filter in Python
+
+<a href="https://github.com/theworksinstitute/fips/blob/main/Makefile">Makefile</a>:
+used to compile the c++ version of plotter (ROOT also needed for that)
+
+Example output from xi_interpolator_plotter (left: c++/ROOT, right: Python):<br />
+<img alt="phasefunc_ave90_Q010 ROOT" src="https://user-images.githubusercontent.com/38218165/212292835-16786a3e-7295-4877-a23a-87a9c098b24e.png" width=300 />
+<img alt="phasefunc_Phi090_Q010 Python" src="https://user-images.githubusercontent.com/38218165/212292776-ea20eef9-a560-430b-934c-3dcbc3bb528f.png" width=300 />
 
 Example from phase_shifter_calculation_threestage.cc (three stages, c++/ROOT version):<br />
 <img alt="phasefunc_threestage_many" src="https://user-images.githubusercontent.com/38218165/207390031-d4a3d175-0bdf-4643-9915-e90e1704335d.png" width=300 />
