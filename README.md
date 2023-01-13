@@ -1,5 +1,11 @@
 # Frequency Independent Phase Shifter
 
+This library contains two set of codes:
+1. files with xi_interpolator: the optimal xi value for a large array of Phi0 and Q was determined numerically, and a table contains these optimal xi values; for any given Phi0 and Q, the best xi is determined via interpolation, and then with these a single stage filter can be defined (and plotted)
+2. files with phase_shifter_calculation_threestage: a three stage filter given via predefined equations, the coefficients of which are calculated based on optimilzation performed
+
+All the details for the above calculations are described in a google drive document shared for now with TheWorks team members.
+
 <a href="https://github.com/theworksinstitute/fips/blob/main/xi_interpolator.h">xi_interpolator.h</a>:
 c++ version of the tabulated values and the interpolator
 
