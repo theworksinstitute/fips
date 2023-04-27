@@ -42,3 +42,9 @@ Example from phase_shifter_calculation_threestage.cc (three stages, c++/ROOT ver
 Example from phase_shifter_calculation_threestage.py (three stages, Python version):<br />
 <img alt="phase_shifter_threestage_python" src="https://user-images.githubusercontent.com/38218165/209837680-87123765-c4f1-4c96-9bfb-6ad40fb2a566.png" width=300 />
 <img alt="phase_shifter_threestage_diff_python" src="https://user-images.githubusercontent.com/38218165/209837682-ca78f4b8-2da0-4d10-9a21-86b185f4fbfa.png" width=300 />
+
+Text files with output parameters:
+
+<a href="https://github.com/theworksinstitute/fips/blob/main/Q_Phi0_table.txt">Q_Phi0_table.txt</a>: Table of xi values for some example Q and Phi0 values for the single stage filter
+
+<a href="https://github.com/theworksinstitute/fips/blob/main/three_stage_example_parameters.txt">three_stage_example_parameters.txt</a>: Parameters of the three stage filter for some example Phi0 values.
